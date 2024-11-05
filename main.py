@@ -65,5 +65,6 @@ if __name__ == "__main__":
         if transactions != 0:
             for transaction in transactions:
                 print(f"Transaction: {transaction}")
+            generate = False
             
         print()
